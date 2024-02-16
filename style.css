@@ -7,7 +7,6 @@ html{
 
 html, body{
     margin: 0;
-    outline: none;;
 }
 
 body{
@@ -22,6 +21,13 @@ body{
     font-family: "Luckiest Guy", cursive;
     letter-spacing: 0.15em;
 
+}
+
+* {
+    -webkit-touch-callout: none;              
+    -webkit-text-size-adjust: none;             
+    -webkit-tap-highlight-color: rgba(0,0,0,0); 
+    -webkit-user-select: none;                  
 }
 
 .heading{
@@ -62,7 +68,7 @@ body{
 
 @media (hover:none) {
     #new-game-button:active{
-        border: 2px solid white;
+        border: 2px solid white;;
         opacity: 0.9;
     }
 }
