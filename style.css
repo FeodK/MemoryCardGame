@@ -96,16 +96,7 @@ body{
 }
 
 @media (max-width: 500px){
-    .heading{
-        font-size: 1em;
+    body{
+        font-size: 10px;
     }
-    
-    .description{
-        font-size: 0.75em;
-    }
-
-    .card{
-        width: 2.5em;
-        height: 2.5em;
-    }    
 }
