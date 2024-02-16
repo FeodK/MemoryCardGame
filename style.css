@@ -94,3 +94,18 @@ body{
 .card-back{
     transform: rotateY(180deg);
 }
+
+@media (max-width: 500px){
+    .heading{
+        font-size: 1em;
+    }
+    
+    .description{
+        font-size: 0.75em;
+    }
+
+    .card{
+        width: 2.5em;
+        height: 2.5em;
+    }    
+}
