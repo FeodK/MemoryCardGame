@@ -27,7 +27,7 @@ function startGame() {
     createCards.forEach((card) =>
       card.classList.remove(VISIBLE_CARD_CLASSNAME)
     );
-  }, 1000);
+  }, 1500);
 }
 
 function generateArray(emojies, amount) {
